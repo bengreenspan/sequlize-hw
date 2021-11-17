@@ -14,7 +14,8 @@ app.get('/api/sandwiches', async(req, res, next)=> {
              model: Ingredient,
              as: 'component'
             },
-            Ingredient
+            // Ingredient,
+            // Sandwich
         ]
         }));
     }
